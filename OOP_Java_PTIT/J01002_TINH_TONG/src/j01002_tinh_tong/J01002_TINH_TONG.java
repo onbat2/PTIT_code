@@ -12,7 +12,7 @@ public class J01002_TINH_TONG {
         if(m > 0 && m <= 10){
             for(int i = 0; i < m; i++){
                 n = m_sc.nextLong();
-                System.out.println(n * (n + 1) / 2);
+                System.out.println((n + 1) * n / 2);
             }
         }
     }             
